@@ -4,6 +4,7 @@ import Hospital from './assets/Hospital.jpg'
 import Worker from './assets/Worker.jpg'
 import Hero from './components/Hero';
 import Slider from './components/Slider';
+import DonateForm from './components/DonateForm';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               subtitle={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, dicta.'}
               flipped={true}                
               />
+      <DonateForm />
     </div>
   );
 }
