@@ -11,7 +11,7 @@ const DonateForm = () => {
     const renderDonateForm = () => {
         return <>
                 <h1>Give Today</h1>
-                <iframe width='600' height='1100' src='https://host.nxt.blackbaud.com/donor-form?svcid=renxt&formId=49808f28-35a6-43ab-bbbe-7279f71f56b8&envid=p-CGog7MA-MUufU5LYfQ_pBQ&zone=usa' sandbox=''></iframe>
+                <iframe width='600' height='1100' src='https://host.nxt.blackbaud.com/donor-form?svcid=renxt&formId=49808f28-35a6-43ab-bbbe-7279f71f56b8&envid=p-CGog7MA-MUufU5LYfQ_pBQ&zone=usa' ></iframe>
             </>
     }
   
