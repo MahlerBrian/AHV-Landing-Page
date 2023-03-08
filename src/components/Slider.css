@@ -30,3 +30,14 @@
 .slider-title {
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .slider {
+        flex-direction: column;
+        background-color: rgb(236, 236, 236);
+    }
+
+    .slider-image {
+        width: 100%;
+    }
+}
