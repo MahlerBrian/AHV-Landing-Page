@@ -5,11 +5,21 @@ import Worker from './assets/Worker.jpg'
 import Hero from './components/Hero';
 import Slider from './components/Slider';
 import DonateForm from './components/DonateForm';
+import Navbar from './components/Navbar';
 
+
+const navbarLinks = [
+  {url: '#', title: 'Home'}, 
+  {url: 'https://www.engenderhealth.org/about', title: 'About'},
+  {url: '#', title: 'Donate'}
+]
 
 function App() {
   return (
     <div className="App">
+      <Navbar 
+        navbarLinks={navbarLinks}
+      />
       <Hero imageSrc={India}/>
       <Slider imageSrc={Worker} 
               title={`It's time to amplify her voice!`} 
