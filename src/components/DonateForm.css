@@ -5,7 +5,7 @@
    /*  opacity: 0;
     transform: scale(85%);
     transition: 2s;*/
-    margin-left: 85vh; 
+    margin-left: 70vh; 
 }
 
 .donate-form--zoom {
@@ -18,3 +18,15 @@
 #blackbaud-donation-form_49808f28-35a6-43ab-bbbe-7279f71f56b8 {
     display: inline;
 }
+
+@media screen and (max-width: 800px) {
+    .donate-form {
+        margin-left: 2vh;
+        width: 10%;
+    }
+    #blackbaud-donation-form_49808f28-35a6-43ab-bbbe-7279f71f56b8 {
+        display: inline;
+        max-width: fit-content;
+    }
+}
+

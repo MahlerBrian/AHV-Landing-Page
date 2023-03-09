@@ -31,3 +31,19 @@
     font-size: 2rem;
     background-color: white;
 }
+
+@media screen and (max-width: 800px) {
+    .hero {
+        width: auto;
+    }
+    
+    .hero-image {
+        width: auto;
+    }
+    .hero-title {
+        font-size: 3rem;
+        bottom: 3%;
+        color: rgb(255, 231, 47);
+        font-weight: bold;
+    }
+}
